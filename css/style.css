@@ -1,0 +1,15 @@
+@import url("https://fonts.google.com/specimen/Roboto?query=roboto");
+@import url("https://fonts.google.com/specimen/Cardo?query=cardo");
+body {
+  font-family: "Roboto", "Cardo";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+image {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
