@@ -1,0 +1,14 @@
+.carusel {
+    width: 100%;
+}
+
+.carusel__card {
+    display: flex;
+}
+
+.card__img {
+    display: block;
+    width: 25%;
+    // object-fit: cover;
+    // object-position: center;
+}

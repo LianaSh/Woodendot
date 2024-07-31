@@ -1,18 +1,9 @@
 .mainscreen {
-    // max-width: 1440px;
     width: 100%;
-    // display: flex;
-    // align-items: center;
-    // text-align: center;
 }
 
 .mainscreen__img {
-    // width: 1440px;
     width: 100%;
-    // height: auto;
-    // object-fit: cover;
-    // object-position: center;
-    // position: relative;
 }
 
 .mainscreen__title {
@@ -39,7 +30,6 @@
 
 .mainscreen__btn {
     display: block;
-
     padding: 4px 40px;
     color: rgb(255, 255, 255);
     background: none;
@@ -47,15 +37,11 @@
     font-size: 20px;
     font-weight: 700;
     border: 1px solid rgb(255, 255, 255);
-    // width: 204px;
-    // height: 33px;
 }
 
 .mainscreen__button {
     display: block;
     margin-top: 250px;
-    // width: 324px;
-    // height: 50px;
     padding: 15px 32px;
     background: rgb(5, 5, 5);
     border: 1px solid;
@@ -63,5 +49,4 @@
     align-items: center;
     font-size: 15px;
     font-weight: 400;
-   
 }
