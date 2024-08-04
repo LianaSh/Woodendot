@@ -1,0 +1,12 @@
+.product {
+    width: 100%;
+}
+
+.product__list {
+    display: block;
+}
+
+.product__card {
+    display: flex;
+    justify-content: space-between;
+}
