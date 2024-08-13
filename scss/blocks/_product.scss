@@ -13,6 +13,13 @@
     justify-content: space-between;
     gap: 22px;
     margin-bottom: 29px;
+    padding-left: 50px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
 }
 
 .product__title {
