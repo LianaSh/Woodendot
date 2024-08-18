@@ -255,4 +255,52 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.info__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.info__icon {
+  width: 9px;
+  height: 9px;
+  margin-right: 5px;
+}
+
+.info__desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 136px;
+  padding: 0 125px;
+}
+
+.info__slogan {
+  color: rgb(2, 2, 2);
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 37px;
+}
+
+.info__copyright {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 51px;
+}
+
+.slogan__carusel {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slogan__icon {
+  width: 9px;
+  height: 9px;
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */
