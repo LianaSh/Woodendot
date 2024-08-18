@@ -2,6 +2,7 @@
 @import url("https://fonts.google.com/specimen/Cardo?query=cardo");
 body {
   font-family: "Roboto", "Cardo";
+  background: rgb(247, 247, 247);
 }
 
 * {
@@ -156,7 +157,6 @@ img {
   justify-content: space-between;
   gap: 22px;
   margin-bottom: 29px;
-  padding-left: 50px;
 }
 
 .reverse {
@@ -169,6 +169,7 @@ img {
   display: block;
   margin-top: 48px;
   text-align: right;
+  padding-left: 50px;
 }
 
 .product__head {
@@ -209,7 +210,6 @@ img {
 
 .product__img {
   width: 960px;
-  width: 100%;
   height: 542px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -303,4 +303,53 @@ img {
   width: 9px;
   height: 9px;
   margin-right: 5px;
+}
+
+.features {
+  width: 100%;
+  margin-top: 95px;
+}
+
+.features__list {
+  display: flex;
+}
+
+.features__card {
+  display: block;
+  justify-content: center;
+  width: 25%;
+  text-align: center;
+  padding: 56px 33px 49px 33px;
+}
+
+.features__card--white {
+  background-color: white;
+}
+
+.features__icon {
+  width: 85px;
+  height: 85px;
+}
+
+.features__head {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+.features__title {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.86px;
+  margin-bottom: 23px;
+}
+
+.features__more {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: underline;
 }/*# sourceMappingURL=style.css.map */

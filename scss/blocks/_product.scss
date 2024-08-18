@@ -13,7 +13,7 @@
     justify-content: space-between;
     gap: 22px;
     margin-bottom: 29px;
-    padding-left: 50px;
+    // padding-left: 50px;
 }
 
 .reverse {
@@ -26,6 +26,7 @@
     display: block;
     margin-top: 48px;
     text-align: right;
+    padding-left: 50px;
 }
 
 .product__head {
@@ -66,7 +67,7 @@
 
 .product__img {
     width: 960px;
-    width: 100%;
+    // width: 100%;
     height: 542px;
     object-fit: cover;
     object-position: center;

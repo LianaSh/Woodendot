@@ -1,0 +1,48 @@
+.features {
+    width: 100%;
+    margin-top: 95px;
+}
+
+.features__list {
+    display: flex;
+}
+
+.features__card {
+    display: block;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+    padding: 56px 33px 49px 33px;
+}
+
+.features__card--white {
+    background-color: white;
+}
+
+.features__icon {
+    width: 85px;
+    height: 85px;
+}
+
+.features__head {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+
+.features__title {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.86px;
+    margin-bottom: 23px;
+}
+
+.features__more {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
