@@ -329,6 +329,7 @@ img {
 .features__icon {
   width: 85px;
   height: 85px;
+  margin: 0 auto;
 }
 
 .features__head {
@@ -352,4 +353,28 @@ img {
   font-size: 14px;
   font-weight: 400;
   text-decoration-line: underline;
+}
+
+.media {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 133px 10px 83px 10px;
+}
+
+.media__head {
+  display: flex;
+  margin: 0 auto;
+}
+
+.media__text {
+  color: rgb(69, 69, 69);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 41px;
+}
+
+.media__list {
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
